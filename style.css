@@ -1,103 +1,130 @@
-.btn-dthree {
-    border: none;
-    outline: none;
-    padding: 200px 50px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-    font-size: 18px; 
-    cursor: pointer;
-    position: absolute;
-    top:20%;
-    left:2%;
+#background {
+    background-image: url(bg.gif);
+    background-position: 50% 30%;
 }
-.btn-dfour {
-   border: none;
-   outline: none;
-   padding: 200px 50px;
-   background-color: #f1f1f1;
-   cursor: pointer;
-   font-size: 18px; 
-   cursor: pointer;
-   position: absolute;
-   top:20%;
-   left:22%;
-}
-.btn-dfive {
-    border: none;
-    outline: none;
-    padding: 200px 50px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-    font-size: 18px; 
-    cursor: pointer;
-    position: absolute;
-    top:20%;
-    left:38%;
- }
- .btn-dsix {
-    border: none;
-    outline: none;
-    padding: 200px 50px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-    font-size: 18px; 
-    cursor: pointer;
-    position: absolute;
-    top:20%;
-    left:53%;
- }
- .btn-deight {
-    border: none;
-    outline: none;
-    padding: 200px 50px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-    font-size: 18px; 
-    cursor: pointer;
-    position: absolute;
-    top:20%;
-    left:68%;
- }
- .btn-dten {
-    border: none;
-    outline: none;
-    padding: 200px 50px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-    font-size: 18px; 
-    cursor: pointer;
-    position: absolute;
-    top:20%;
-    left:85%;
- }
 
-.active, .btn-dthree:hover {
-    background-color: skyblue;
+.btn-dthree {
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid black;
+    outline: none;
+    padding: 40px 50px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 2%;
 }
-.active, .btn-dfour:hover {
-    background-color: skyblue;
+
+.btn-dfour {
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid black;
+    outline: none;
+    padding: 40px 70px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 29%;
 }
-.active, .btn-dfive:hover {
-    background-color: skyblue;
+
+.btn-dfive {
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid black;
+    outline: none;
+    padding: 40px 70px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 43%;
 }
-.active, .btn-dsix:hover {
-    background-color: skyblue;
+
+.btn-dsix {
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid black;
+    outline: none;
+    padding: 40px 70px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 57%;
 }
-.active, .btn-deight:hover {
-    background-color: skyblue;
+
+.btn-deight {
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid black;
+    outline: none;
+    padding: 40px 70px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 71%;
 }
-.active, .btn-dten:hover {
-    background-color: skyblue;
+
+.btn-dten {
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid black;
+    outline: none;
+    padding: 40px 70px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 85%;
+}
+
+.active,
+.btn-dthree:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active,
+.btn-dfour:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active,
+.btn-dfive:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active,
+.btn-dsix:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active,
+.btn-deight:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active,
+.btn-dten:hover {
+    background-color: purple;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
